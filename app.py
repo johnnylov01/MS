@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 SERVICIOS = {
-    "sumar": "https://suma-service.azurewebsites.net/sumar",
+    "sumar": "https://suma-ms-hycmcqg0edb8adb6.canadacentral-01.azurewebsites.net/sumar",
     "restar": "https://resta-service.azurewebsites.net/restar",
     "multiplicar": "https://multiplicacion-service.azurewebsites.net/multiplicar",
     "dividir": "https://division-service.azurewebsites.net/dividir"
